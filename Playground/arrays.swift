@@ -7,11 +7,7 @@ for day in daysOfWeek {
 }
 
 // Print out the number of days of the week (using count)
-var numDays = 0
-for _ in stride(from: 0, to: daysOfWeek.count, by: 1) {
-   numDays+=1                                             
-}
-print(numDays)
+print(numDays.count)
 
 // Change one of the days to "Holiday".
 daysOfWeek[5] = "Holiday"
