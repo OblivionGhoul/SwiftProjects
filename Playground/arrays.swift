@@ -7,7 +7,7 @@ for day in daysOfWeek {
 }
 
 // Print out the number of days of the week (using count)
-print(numDays.count)
+print(daysOfWeek.count)
 
 // Change one of the days to "Holiday".
 daysOfWeek[5] = "Holiday"
