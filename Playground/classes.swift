@@ -1,25 +1,25 @@
 class Person {
-    var grade:Int
-    var age:Int
-    var name:String
-    
-    init() {
-        self.grade = 0
-        self.age = 0
-        self.name = "Person"
-    }
-    
-    func promote() {
-        grade += 1
-    }
-    
-    func birthdayed() {
-        age += 1
-    }
-    
-    func print() -> String {
-        return("\(name) is in grade \(grade) at age \(age).")
-    }
+   var grade:Int
+   var age:Int
+   var name:String
+
+   init(grade: Int = 0, age: Int = 0, name: String = "Person") {
+       self.grade = grade
+       self.age = age
+       self.name = name
+   }
+
+   func promote() {
+       grade += 1
+   }
+
+   func birthdayed() {
+       age += 1
+   }
+
+   func print() -> String {
+       return("\(name) is in grade \(grade) at age \(age).")
+   }
 }
 
 // Main part of program
